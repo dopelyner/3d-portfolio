@@ -1,8 +1,8 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  react,
+  frontend,
+  systemadmin,
+  fullstack,
   javascript,
   typescript,
   html,
@@ -45,19 +45,19 @@ export const navLinks = [
 const services = [
   {
     title: "Fullstack Developer",
-    icon: web,
+    icon: fullstack,
   },
   {
     title: "React Developer",
-    icon: mobile,
+    icon: react,
   },
   {
     title: "Frontend Developer",
-    icon: backend,
+    icon: frontend,
   },
   {
     title: "System Administrator",
-    icon: creator,
+    icon: systemadmin,
   },
 ];
 
@@ -82,10 +82,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -94,10 +94,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -110,10 +110,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -169,7 +169,10 @@ const experiences = [
     icon: cmv,
     iconBg: "#FFFFFF",
     date: "Oct 2020 - Present",
-    points: [,
+    points: [
+      "Manage and maintain the organization's computer systems and network infrastructure",
+      "Ensuring data security and implementing appropriate security measures",
+      "Providing technical support to  non-technical colleagues and work with other departments to understand their technology needs",
     ],
   },
   {

@@ -1,8 +1,8 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import frontend from "./frontend.png";
+import systemadmin from "./systemadmin.png";
+import react from "./react.png";
+import fullstack from "./fullstack.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -34,10 +34,10 @@ import bravoboy from "./bravoboy.jpeg";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  frontend,
+  systemadmin,
+  react,
+  fullstack,
   github,
   menu,
   close,
