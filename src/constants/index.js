@@ -82,10 +82,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -94,10 +94,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
   {
     name: "Three JS",
     icon: threejs,
@@ -110,10 +110,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "docker",
+    icon: docker,
+  },
 ];
 
 const experiences = [
@@ -154,7 +154,7 @@ const experiences = [
     company_name: "<Academia de Código_>",
     icon: academia,
     iconBg: "#FFFFFF",
-    date: "Jan 2023 - Present",
+    date: "May 2020 - Aug 2020",
     points: [
       "A 14-Week Intensive && Immersive FullStack Programming Bootcamp",
       "Programming in Java",
