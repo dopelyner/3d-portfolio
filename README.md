@@ -1,5 +1,8 @@
 # Build a simple Website with 3d models using ThreeJs & ReactJs
 
+![alt text](https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase.png?raw=true)
+
+
 ##  Techologies 
 - ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model;
 - React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React;
