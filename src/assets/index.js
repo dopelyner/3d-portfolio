@@ -32,6 +32,9 @@ import artemis from "./company/artemislogo.svg";
 import imageguess from "./imageguess.png";
 import westsideadventure from "./westsideadventure.png";
 import bravoboy from "./bravoboy.jpeg";
+import bernie from "./bernardosantotirso.png"
+import buymecoffee from "./buymecoffee.png"
+import nikelp from "./nikelp.png"
 
 export {
   logo,
@@ -64,5 +67,8 @@ export {
   imageguess,
   westsideadventure,
   bravoboy,
-  nextjs
+  nextjs,
+  bernie,
+  buymecoffee,
+  nikelp,
 };
