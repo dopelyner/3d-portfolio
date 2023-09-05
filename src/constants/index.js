@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   nodejs,
@@ -81,6 +82,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Redux Toolkit",
@@ -173,6 +178,8 @@ const experiences = [
       "Manage and maintain the organization's computer systems and network infrastructure",
       "Ensuring data security and implementing appropriate security measures",
       "Providing technical support to  non-technical colleagues and work with other departments to understand their technology needs",
+      "Configure and responsable for the content of the mobile app, present in Google Play and App Store as ''Município de Velas''",
+      "Member of the team that build and configured the Online Services of the City Hall in 'servicos-online.cmvelas.pt'",
     ],
   },
   {
