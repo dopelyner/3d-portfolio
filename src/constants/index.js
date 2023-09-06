@@ -298,7 +298,7 @@ const projects = [
   {
     name: "Nike",
     description:
-      "Nike Landing Page.",
+      "Nike Landing Page clone.",
     tags: [
       {
         name: "React",

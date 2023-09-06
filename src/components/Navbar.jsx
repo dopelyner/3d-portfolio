@@ -43,7 +43,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 rounded-full object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             &nbsp;
-            <span className='sm:block hidden'>dopeLyner</span>
+            <span className='sm:block hidden'>dopelyner</span>
           </p>
         </Link>
 

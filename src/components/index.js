@@ -1,4 +1,4 @@
-import { BallCanvas, ComputerCanvas, StarsCanvas, TurtleCanvas, ShipInBottleCanvas } from './canvas';
+import { BallCanvas, StarsCanvas, ShipInBottleCanvas } from './canvas';
 import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
@@ -16,8 +16,6 @@ export {
   Works,
   Contact,
   BallCanvas, 
-  ComputerCanvas, 
   StarsCanvas,
-  TurtleCanvas,
-  ShipInBottleCanvas
+  ShipInBottleCanvas,
 }
