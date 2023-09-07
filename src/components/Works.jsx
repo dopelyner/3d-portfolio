@@ -24,9 +24,9 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='relative orange-gradient p-5 shadow-card rounded-2xl sm:w-[360px] w-full min-h-[490px]'
+        className='relative orange-gradient p-5 shadow-card rounded-2xl xs:w-[240px] sm:w-[360px] w-full min-h-[480px]'
       >
-        <div className='relative w-full h-[220px]'>
+        <div className='relative w-full h-[230px]'>
           <img
             src={image}
             alt='project_image'
@@ -71,7 +71,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        <p className={`${styles.sectionSubText}`}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
