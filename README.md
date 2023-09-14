@@ -1,6 +1,11 @@
 # Build a simple Website with 3d models using ThreeJs & ReactJs
 
 ![alt text](https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase.png?raw=true)
+![alt text](https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase01.png?raw=true)
+![alt text](https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase02.png?raw=true)
+![alt text](https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase03.png?raw=true)
+![alt text](https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase04.png?raw=true)
+![alt text](https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase05.png?raw=true)
 
 
 ##  Techologies 
