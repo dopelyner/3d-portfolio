@@ -29,6 +29,7 @@ import {
   bernie,
   buymecoffee,
   nikelp,
+  marketplace,
 } from "../assets";
 
 export const navLinks = [
@@ -311,6 +312,45 @@ const projects = [
     ],
     image: nikelp,
     source_code_link: "https://github.com/dopelyner/nike-lp",
+  },
+  {
+    name: "NFT Marketplace",
+    description:
+      "NFT Marketplace implementation where an owner can set/update policy fees, create a colletion of NFts & set/update royalty fees and list & buy on the marketplace.",
+    tags: [
+      {
+        name: "Solidity",
+        color: "black-text-gradient",
+      },
+      {
+        name: "HardHat",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React",
+        color: "light-blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: marketplace,
+    source_code_link: "https://github.com/dopelyner/nft-mark3tplace",
+  },
+  {
+    name: "BAYC subgraph",
+    description:
+      "Bored Ape Yacht Club subgraph.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "bluee-text-gradient",
+      },
+
+    ],
+    image: bayc,
+    source_code_link: "https://github.com/dopelyner/bayc-api",
   },
 ];
 

@@ -143,11 +143,41 @@ body{
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to top,
       #000,
-      #21211e);
+      #1b1b1b);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top,
       #000,
-      #21211e);
+      #1b1b1b);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.yellow-text-gradient {
+  background: #000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top,
+      #FFBF00,
+      #fff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top,
+      #FFBF00,
+      #fff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bluee-text-gradient {
+  background: #1b1b1b;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top,
+      #fff,
+      #2f20ed);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top,
+      #2f80ed,
+      #2f20ed);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

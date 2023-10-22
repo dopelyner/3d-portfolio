@@ -35,6 +35,8 @@ import bravoboy from "./bravoboy.jpeg";
 import bernie from "./bernardosantotirso.png"
 import buymecoffee from "./buymecoffee.png"
 import nikelp from "./nikelp.png"
+import marketplace from "./nft-marketplace.jpeg"
+import bayc from "./bayc.png"
 
 export {
   logo,
@@ -71,4 +73,6 @@ export {
   bernie,
   buymecoffee,
   nikelp,
+  marketplace,
+  bayc,
 };
