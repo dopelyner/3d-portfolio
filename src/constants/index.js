@@ -30,6 +30,7 @@ import {
   buymecoffee,
   nikelp,
   marketplace,
+  bayc
 } from "../assets";
 
 export const navLinks = [
