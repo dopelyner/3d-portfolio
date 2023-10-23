@@ -183,7 +183,7 @@ const experiences = [
       "Manage and maintain the organization's computer systems and network infrastructure",
       "Ensuring data security and implementing appropriate security measures",
       "Providing technical support to  non-technical colleagues and work with other departments to understand their technology needs",
-      "Configure and responsable for the content of the mobile app, downloadable in Google Play and App Store as ''Município de Velas''",
+      "Configure and responsible for the content of the mobile app, downloadable in Google Play and App Store as ''Município de Velas''",
       "Member of the team that build and configured the Online Services of the City Hall in 'servicos-online.cmvelas.pt'",
     ],
   },
@@ -202,7 +202,7 @@ const experiences = [
     company_name: "Artemis Education - The premier academy for blockchain education",
     icon: artemis,
     iconBg: "#FFFFFF",
-    date: "Sep 2022 - Present",
+    date: "Sep 2022 - Feb 2023",
     points: [
       "Provide pre-recorded presentations on multiple Web3 technologies",
       "Interactive demonstration of various blockchain tools for practical use",
@@ -212,6 +212,96 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Bernardo Santo Tirso",
+    description:
+      "Portfolio website in order to show the work of the great artist and personal friend Bernardo.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "",
+      },
+      {
+        name: "TailwindCSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: bernie,
+    source_code_link: "https://github.com/dopelyner/bernardo-santo-tirso",
+  },
+  {
+    name: "Buy me a Coffe",
+    description:
+      "Smart Contract that implements a tipping functionality.",
+    tags: [
+      {
+        name: "Solidity",
+        color: "black-text-gradient",
+      },
+      {
+        name: "Foundry",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: buymecoffee,
+    source_code_link: "https://github.com/dopelyner/bernardo-santo-tirso",
+  },
+  {
+    name: "NFT Marketplace",
+    description:
+      "An implemented marketplace allows the owner to establish and modify policy fees, assemble a collection of NFTs, adjust royalty fees, and list and purchase items within the marketplace.",
+    tags: [
+      {
+        name: "Solidity",
+        color: "black-text-gradient",
+      },
+      {
+        name: "HardHat",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React",
+        color: "light-blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: marketplace,
+    source_code_link: "https://github.com/dopelyner/nft-mark3tplace",
+  },
+  {
+    name: "BAYC subgraph",
+    description:
+      "Bored Ape Yacht Club subgraph.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "bluee-text-gradient",
+      },
+
+    ],
+    image: bayc,
+    source_code_link: "https://github.com/dopelyner/bayc-api",
+  },
+  {
+    name: "Nike",
+    description:
+      "Nike Landing Page clone.",
+    tags: [
+      {
+        name: "React",
+        color: "light-blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: nikelp,
+    source_code_link: "https://github.com/dopelyner/nike-lp",
+  },
   {
     name: "Image-Guess",
     description:
@@ -262,96 +352,6 @@ const projects = [
     ],
     image: bravoboy,
     source_code_link: "https://github.com/Bravo-Team/bravo-boy",
-  },
-  {
-    name: "Bernardo Santo Tirso",
-    description:
-      "Portfolio website in order to show the work of the great artist and personal friend Bernardo. (WIP)",
-    tags: [
-      {
-        name: "NextJS",
-        color: "",
-      },
-      {
-        name: "TailwindCSS",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: bernie,
-    source_code_link: "https://github.com/dopelyner/bernardo-santo-tirso",
-  },
-  {
-    name: "Buy me a Coffe",
-    description:
-      "Smart Contract that implements a tipping functionality.",
-    tags: [
-      {
-        name: "Solidity",
-        color: "black-text-gradient",
-      },
-      {
-        name: "Foundry",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: buymecoffee,
-    source_code_link: "https://github.com/dopelyner/bernardo-santo-tirso",
-  },
-  {
-    name: "Nike",
-    description:
-      "Nike Landing Page clone.",
-    tags: [
-      {
-        name: "React",
-        color: "light-blue-text-gradient",
-      },
-      {
-        name: "TailwindCSS",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: nikelp,
-    source_code_link: "https://github.com/dopelyner/nike-lp",
-  },
-  {
-    name: "NFT Marketplace",
-    description:
-      "NFT Marketplace implementation where an owner can set/update policy fees, create a colletion of NFts & set/update royalty fees and list & buy on the marketplace.",
-    tags: [
-      {
-        name: "Solidity",
-        color: "black-text-gradient",
-      },
-      {
-        name: "HardHat",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "React",
-        color: "light-blue-text-gradient",
-      },
-      {
-        name: "TailwindCSS",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: marketplace,
-    source_code_link: "https://github.com/dopelyner/nft-mark3tplace",
-  },
-  {
-    name: "BAYC subgraph",
-    description:
-      "Bored Ape Yacht Club subgraph.",
-    tags: [
-      {
-        name: "Typescript",
-        color: "bluee-text-gradient",
-      },
-
-    ],
-    image: bayc,
-    source_code_link: "https://github.com/dopelyner/bayc-api",
   },
 ];
 
