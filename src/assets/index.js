@@ -38,6 +38,10 @@ import nikelp from "./nikelp.png"
 import marketplace from "./nft-marketplace.jpeg"
 import bayc from "./bayc.png"
 
+import downloadIcon from './download-circle-solid.svg'
+import CV from './CV__TIAGO_LINO_FEB_2024.pdf'
+
+
 export {
   logo,
   frontend,
@@ -75,4 +79,6 @@ export {
   nikelp,
   marketplace,
   bayc,
+  downloadIcon,
+  CV
 };
