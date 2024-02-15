@@ -1,41 +1,44 @@
-import React from "react";
+import React from 'react'
 import {
   VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import { motion } from "framer-motion";
+  VerticalTimelineElement
+} from 'react-vertical-timeline-component'
+import { motion } from 'framer-motion'
 
-import "react-vertical-timeline-component/style.min.css";
+import 'react-vertical-timeline-component/style.min.css'
 
-import { styles } from "../styles";
-import { experiences } from "../constants";
-import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion";
+import { styles } from '../styles'
+import { experiences } from '../constants'
+import { SectionWrapper } from '../hoc'
+import { textVariant } from '../utils/motion'
 
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
-      className="vertical-timeline-element--work"
+      className='vertical-timeline-element--work'
       contentStyle={{
-        background: "-webkit-linear-gradient(-90.13deg, #a27b5c 1.9%, #362222 97.5%)",
-        color: "#c7a285",
+        background:
+          '-webkit-linear-gradient(-90.13deg, #a27b5c 1.9%, #362222 97.5%)',
+        color: '#c7a285'
       }}
-      contentArrowStyle={{ borderRight: "7px solid  #a27b5c" }}
+      contentArrowStyle={{ borderRight: '7px solid  #a27b5c' }}
       date={experience.date}
       iconStyle={{
         background: experience.iconBg,
-        borderRadius: "50%",
-        overflow: "hidden",
-        cursor: "pointer",
-        transition: "transform 0.2s ease-in-out",
+        borderRadius: '50%',
+        overflow: 'hidden',
+        cursor: 'pointer',
+        transition: 'transform 0.2s ease-in-out'
       }}
       icon={
         <div className='flex justify-center items-center w-full h-full hover:scale-125'>
-          <img
-            src={experience.icon}
-            alt={experience.company_name}
-            className='w-[80%] h-[80%] object-contain'
-          />
+          <a href={experience.url} target='_blank' className='absolute flex justify-center items-center'>
+            <img
+              src={experience.icon}
+              alt={experience.company_name}
+              className='w-[80%] h-[80%] object-contain'
+            />
+          </a>
         </div>
       }
     >
@@ -60,8 +63,8 @@ const ExperienceCard = ({ experience }) => {
         ))}
       </ul>
     </VerticalTimelineElement>
-  );
-};
+  )
+}
 
 const Experience = () => {
   return (
@@ -86,7 +89,7 @@ const Experience = () => {
         </VerticalTimeline>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, 'work')

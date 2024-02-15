@@ -134,6 +134,7 @@ const experiences = [
   {
     title: "Computer Science",
     company_name: "IST - Instituto Superior Técnico (Taguspark)",
+    url: "https://tecnico.ulisboa.pt/en/",
     icon: ist,
     iconBg: "#00a0e4",
     date: "2015 - 2017",
@@ -144,6 +145,7 @@ const experiences = [
   {
     title: "Computer Science",
     company_name: "UMAIA - Universidade da Maia",
+    url: "https://www.umaia.pt/en",
     icon: umaia,
     iconBg: "#0cacdc",
     date: "2017 - 2020",
@@ -154,6 +156,7 @@ const experiences = [
   {
     title: "Web developer",
     company_name: "Feralbyte – Technology Architects",
+    url: "https://feralbyte.com/",
     icon: feralbyte,
     iconBg: "#FFFFFF",
     date: "May 2019 - Jul 2019",
@@ -166,6 +169,7 @@ const experiences = [
   {
     title: "Full stack Programming bootcamp",
     company_name: "<Academia de Código_>",
+    url: "https://codeforall.com/",
     icon: academia,
     iconBg: "#FFFFFF",
     date: "May 2020 - Aug 2020",
@@ -180,6 +184,7 @@ const experiences = [
   {
     title: "System Administrator",
     company_name: "Município de Velas",
+    url: "https://cmvelas.pt/",
     icon: cmv,
     iconBg: "#FFFFFF",
     date: "Oct 2020 - Present",
@@ -194,6 +199,7 @@ const experiences = [
   {
     title: "PoC Bootcamp",
     company_name: "Artemis Education - The premier academy for blockchain education",
+    url: "https://twitter.com/Artemis_HQ",
     icon: artemis,
     iconBg: "#FFFFFF",
     date: "Jul 2022 - Sep 2022",
@@ -204,6 +210,7 @@ const experiences = [
   {
     title: "Frontend developer | Teacher Assistant",
     company_name: "Artemis Education - The premier academy for blockchain education",
+    url: "https://twitter.com/Artemis_HQ",
     icon: artemis,
     iconBg: "#FFFFFF",
     date: "Sep 2022 - Feb 2023",
