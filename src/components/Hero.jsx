@@ -13,7 +13,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             <p className='flex justify-end mb-6 italic'>
-              aka
+              *aka
               <a
                 href='https://github.com/dopelyner'
                 target='_blank'
