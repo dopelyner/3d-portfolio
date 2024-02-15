@@ -1,12 +1,12 @@
-import React from "react";
-import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
+import React from 'react'
+import { Tilt } from 'react-tilt'
+import { motion } from 'framer-motion'
 
-import { styles } from "../styles";
-import { github } from "../assets";
-import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { styles } from '../styles'
+import { github } from '../assets'
+import { SectionWrapper } from '../hoc'
+import { projects } from '../constants'
+import { fadeIn, textVariant } from '../utils/motion'
 
 const ProjectCard = ({
   index,
@@ -14,15 +14,15 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  source_code_link,
+  source_code_link
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
           scale: 1,
-          speed: 450,
+          speed: 450
         }}
         className='relative orange-gradient p-5 shadow-card rounded-2xl xs:w-[240px] sm:w-[360px] w-full min-h-[480px]'
       >
@@ -35,7 +35,7 @@ const ProjectCard = ({
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => window.open(source_code_link, '_blank')}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
@@ -53,7 +53,7 @@ const ProjectCard = ({
         </div>
 
         <div className='absolute right-8 bottom-5 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
+          {tags.map(tag => (
             <p
               key={`${name}-${tag.name}`}
               className={`text-[14px] ${tag.color}`}
@@ -64,8 +64,8 @@ const ProjectCard = ({
         </div>
       </Tilt>
     </motion.div>
-  );
-};
+  )
+}
 
 const Works = () => {
   return (
@@ -77,15 +77,16 @@ const Works = () => {
 
       <div className='w-full flex'>
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          variants={fadeIn('', '', 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          My portfolio website highlights my experience with a variety of technologies.
-          This app is designed to help myself as a developer in order to improve my skills
-          by providing a collection of examples that demonstrate my proficiency in problem-solving,
-          adaptability to various technologies, and project management skills. I've also been
-          applied my coding skills to real-world projects that require innovative solutions within
-          the context of project management.
+          My portfolio website highlights my experience with a variety of
+          technologies. This app is designed to help myself as a developer in
+          order to improve my skills by providing a collection of examples that
+          demonstrate my proficiency in problem-solving, adaptability to various
+          technologies, and project management skills. I've also been applied my
+          coding skills to real-world projects that require innovative solutions
+          within the context of project management.
         </motion.p>
       </div>
 
@@ -95,7 +96,7 @@ const Works = () => {
         ))}
       </div>
     </>
-  );
-};
+  )
+}
 
-export default SectionWrapper(Works, "projects");
+export default SectionWrapper(Works, 'projects')

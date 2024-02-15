@@ -248,7 +248,7 @@ const projects = [
       },
     ],
     image: buymecoffee,
-    source_code_link: "https://github.com/dopelyner/bernardo-santo-tirso",
+    source_code_link: "https://github.com/dopelyner/buy-me-coffee",
   },
   {
     name: "NFT Marketplace",
@@ -281,8 +281,8 @@ const projects = [
       "Bored Ape Yacht Club subgraph.",
     tags: [
       {
-        name: "Typescript",
-        color: "bluee-text-gradient",
+        name: "TypeScript",
+        color: "yellowww-text-gradient",
       },
 
     ],
@@ -312,7 +312,7 @@ const projects = [
       "Terminal-based multi-player game developed in a weekend, using Prompt-view library. The purpose of this game consists in guessing images in ASCII.",
     tags: [
       {
-        name: "java",
+        name: "Java",
         color: "orange-text-gradient",
       },
       {
@@ -329,7 +329,7 @@ const projects = [
       "Pixel art game developed in 48h, as an hackaton project, using libGDX library. The game was designed to be a metaphor about the difficulties Puerto Rico citizens face when immigrating to America.",
     tags: [
       {
-        name: "java",
+        name: "Java",
         color: "orange-text-gradient",
       },
       {
@@ -346,7 +346,7 @@ const projects = [
       "Runner game developed in a week, using Simple Graphics library. The user embodies a boy who jumps to avoid getting hit by boxes.",
     tags: [
       {
-        name: "java",
+        name: "Java",
         color: "orange-text-gradient",
       },
       {
