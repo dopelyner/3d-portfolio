@@ -71,12 +71,12 @@ const ProjectCard = ({
 
 const TagContainer = ({ name, tags }) => {
   return (
-    <div className='absolute right-8 bottom-5 mt-2 justify-end flex flex-wrap-reverse gap-2'>
+    <div className='absolute right-8 bottom-5 justify-end flex flex-wrap-reverse gap-2'>
       {tags.map(tag => (
-        <div className='bg-secondary rounded-lg px-2 py-1/2'>
-        <p key={`${name}-${tag.name}`} className={` text-[14px] text-primary`}>
-          #{tag.name}
-        </p>
+        <div className='bg-secondary rounded-full px-2 py-0.5'>
+          <p key={`${name}-${tag.name}`} className={`text-[14px] text-white`}>
+            #{tag.name}
+          </p>
         </div>
       ))}
     </div>
