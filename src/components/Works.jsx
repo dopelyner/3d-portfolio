@@ -1,11 +1,11 @@
+import { motion } from 'framer-motion'
 import React from 'react'
 import { Tilt } from 'react-tilt'
-import { motion } from 'framer-motion'
 
-import { styles } from '../styles'
 import { github } from '../assets'
-import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
+import { SectionWrapper } from '../hoc'
+import { styles } from '../styles'
 import { fadeIn, textVariant } from '../utils/motion'
 
 const ProjectCard = ({
@@ -52,7 +52,9 @@ const ProjectCard = ({
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
-        <div className='absolute right-8 bottom-5 flex flex-wrap gap-2'>
+        <TagContainer name={name} tags={tags} />
+
+        {/* <div className='absolute right-8 bottom-5 flex flex-wrap gap-2'>
           {tags.map(tag => (
             <p
               key={`${name}-${tag.name}`}
@@ -61,9 +63,23 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
-        </div>
+        </div> */}
       </Tilt>
     </motion.div>
+  )
+}
+
+const TagContainer = ({ name, tags }) => {
+  return (
+    <div className='absolute right-8 bottom-5 mt-2 justify-end flex flex-wrap-reverse gap-2'>
+      {tags.map(tag => (
+        <div className='bg-secondary rounded-lg px-2 py-1/2'>
+        <p key={`${name}-${tag.name}`} className={` text-[14px] text-primary`}>
+          #{tag.name}
+        </p>
+        </div>
+      ))}
+    </div>
   )
 }
 

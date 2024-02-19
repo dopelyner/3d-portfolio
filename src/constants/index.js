@@ -241,6 +241,27 @@ const projects = [
     source_code_link: "https://github.com/dopelyner/bernardo-santo-tirso",
   },
   {
+    name: "3D Portfolio",
+    description:
+      "This portfolio website.",
+    tags: [
+      {
+        name: "React",
+        color: "light-blue-text-gradient",
+      },
+      {
+        name: "ThreeJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "src/assets/showcase.png",
+    source_code_link: "https://github.com/dopelyner/3d-portfolio",
+  },
+  {
     name: "Buy me a Coffe",
     description:
       "Smart Contract that implements a tipping functionality.",
@@ -260,7 +281,7 @@ const projects = [
   {
     name: "NFT Marketplace",
     description:
-      "An implemented marketplace allows the owner to establish and modify policy fees, assemble a collection of NFTs, adjust royalty fees, and list and purchase items within the marketplace.",
+      "Allows the owner to establish and modify policy fees, assemble a collection of NFTs, adjust royalty fees, and list and purchase items within the marketplace.",
     tags: [
       {
         name: "Solidity",
