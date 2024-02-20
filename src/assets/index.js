@@ -40,6 +40,7 @@ import bayc from "./bayc.png"
 
 import downloadIcon from './download-circle-solid.svg'
 import CV from './CV__TIAGO_LINO_FEB_2024.pdf'
+import showcase from './showcase.png'
 
 
 export {
@@ -80,5 +81,6 @@ export {
   marketplace,
   bayc,
   downloadIcon,
-  CV
+  CV,
+  showcase
 };

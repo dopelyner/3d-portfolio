@@ -30,7 +30,8 @@ import {
   buymecoffee,
   nikelp,
   marketplace,
-  bayc
+  bayc,
+  showcase
 } from "../assets";
 
 export const navLinks = [
@@ -258,7 +259,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: "src/assets/showcase.png",
+    image: showcase,
     source_code_link: "https://github.com/dopelyner/3d-portfolio",
   },
   {
