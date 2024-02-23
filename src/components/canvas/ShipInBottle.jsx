@@ -16,7 +16,7 @@ const ShipInBottle = () => {
         intensity={1}
       />
       <pointLight intensity={1} />
-      <primitive object={ship.scene} scale={1.4} position-y={0} rotation-y={0} />
+      <primitive object={ship.scene} scale={1.2} position-y={0} rotation-y={0} />
     </mesh>
   );
 };
