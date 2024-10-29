@@ -31,7 +31,8 @@ import {
   nikelp,
   marketplace,
   bayc,
-  showcase
+  showcase,
+  mundoparalelo
 } from "../assets";
 
 export const navLinks = [
@@ -224,6 +225,23 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Mundo Paralelo",
+    description:
+      "Event platform for the best underground music festivel in Azores.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "",
+      },
+      {
+        name: "TailwindCSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: mundoparalelo,
+    source_code_link: "https://github.com/dopelyner/mundo-paralelo",
+  },
   {
     name: "Bernardo Santo Tirso",
     description:

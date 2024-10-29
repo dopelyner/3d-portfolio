@@ -37,6 +37,7 @@ import buymecoffee from "./buymecoffee.png"
 import nikelp from "./nikelp.png"
 import marketplace from "./nft-marketplace.jpeg"
 import bayc from "./bayc.png"
+import mundoparalelo from "./mundo-paralelo.png"
 
 import downloadIcon from './download-circle-solid.svg'
 import CV from './CV__TIAGO_LINO_FEB_2024.pdf'
@@ -82,5 +83,6 @@ export {
   bayc,
   downloadIcon,
   CV,
-  showcase
+  showcase,
+  mundoparalelo
 };
