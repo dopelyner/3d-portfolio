@@ -32,7 +32,8 @@ import {
   marketplace,
   bayc,
   showcase,
-  mundoparalelo
+  mundoparalelo,
+  azoreancows
 } from "../assets";
 
 export const navLinks = [
@@ -226,9 +227,34 @@ const experiences = [
 
 const projects = [
   {
+    name: "Azorean Cows",
+    description:
+      "A unique platform for tourists to experience authentic Azorean farming, offering immersive tours into the daily life of local dairy farmers.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "black-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: azoreancows,
+    source_code_link: "https://github.com/dopelyner/azorean-cows",
+  },
+  {
     name: "Mundo Paralelo",
     description:
-      "Event platform for the best underground music festivel in Azores.",
+      "Event platform for the best underground music festival in Azores.",
     tags: [
       {
         name: "NextJS",
