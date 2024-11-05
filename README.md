@@ -1,12 +1,13 @@
 # Build a simple Website with 3d models using ThreeJs & ReactJs
 
-![alt text](https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase.png?raw=true)
-![alt text](https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase01.png?raw=true)
-![alt text](https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase02.png?raw=true)
-![alt text](https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase03.png?raw=true)
-![alt text](https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase04.png?raw=true)
-![alt text](https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase05.png?raw=true)
-
+<p align="center">
+  <img src="https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase.png?raw=true" alt="Alt text" width="300"/>
+  <img src="https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase01.png?raw=true" alt="Alt text" width="300"/>
+  <img src="https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase02.png?raw=true" alt="Alt text" width="300"/>
+  <img src="https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase03.png?raw=true" alt="Alt text" width="300"/>
+  <img src="https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase04.png?raw=true" alt="Alt text" width="300"/>
+  <img src="https://github.com/dopelyner/3d-portfolio/blob/master/src/assets/showcase05.png?raw=true" alt="Alt text" width="300"/>
+</p>
 
 ##  Technologies 
 - ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model;
